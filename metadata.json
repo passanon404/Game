@@ -1,0 +1,6 @@
+{
+  "name": "Retro 3D Sprite RPG",
+  "description": "A hybrid ThreeJS game with 2D sprites walking in 8 directions in a 3D world, featuring character controls, enemies, item collection, and an epic boss battle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-progress-bar: progress-bar 2.5s ease-in-out infinite;
+  --animate-fade-in: fade-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-bounce-short: bounce-short 3s ease-in-out infinite;
+
+  @keyframes progress-bar {
+    0% { width: 10%; }
+    50% { width: 85%; }
+    100% { width: 100%; }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; transform: scale(0.97) translateY(4px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  @keyframes bounce-short {
+    0%, 100% { transform: translate(-50%, 0px); }
+    50% { transform: translate(-50%, -6px); }
+  }
+}
+
